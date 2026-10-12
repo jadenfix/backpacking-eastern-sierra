@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-12T06:13:56.148Z",
+  "checkedLabel": "Oct 11, 2026 · 11:14 p.m. PDT",
+  "group": 1,
+  "date": "2026-10-13",
+  "exit": "2026-10-16",
+  "type": "Overnight",
+  "source": "https://www.recreation.gov/permits/233262/registration/detailed-availability?date=2026-10-11&type=overnight-permit",
+  "entries": {
+    "AA05": {
+      "code": "AA05",
+      "name": "Rush Creek",
+      "available": 29,
+      "quota": 30,
+      "verifiedBookNow": true,
+      "date": "2026-10-13"
+    },
+    "JM01": {
+      "code": "JM01",
+      "name": "Duck Pass",
+      "available": 29,
+      "quota": 30,
+      "verifiedBookNow": true,
+      "date": "2026-10-13"
+    },
+    "JM05": {
+      "code": "JM05",
+      "name": "McGee Pass",
+      "available": 15,
+      "quota": 15,
+      "verifiedBookNow": true,
+      "date": "2026-10-13"
+    },
+    "JM21": {
+      "code": "JM21",
+      "name": "Bishop Pass -South Lake",
+      "available": 31,
+      "quota": 36,
+      "verifiedBookNow": true,
+      "date": "2026-10-13"
+    },
+    "AA16": {
+      "code": "AA16",
+      "name": "Red Cones",
+      "available": 15,
+      "quota": 15,
+      "verifiedBookNow": true,
+      "date": "2026-10-13"
+    },
+    "JM17": {
+      "code": "JM17",
+      "name": "Sabrina Lake",
+      "available": 23,
+      "quota": 25,
+      "verifiedBookNow": true,
+      "date": "2026-10-13"
+    }
+  }
+}

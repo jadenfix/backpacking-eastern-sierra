@@ -1,0 +1,11 @@
+{
+  "source": "USFS EDW RoadBasic 03S11 geometry; approximate equirectangular distances sampled every<=5m. GIS analysis is not ranger authorization.",
+  "roadSegments": 1238,
+  "minDistanceMetres": 341.9967146930663,
+  "closestRouteCoordinate": [
+    -119.07877241666665,
+    37.612274916666664
+  ],
+  "approxLengthWithin200ftMetres": 0,
+  "samplePointsWithin200ft": []
+}

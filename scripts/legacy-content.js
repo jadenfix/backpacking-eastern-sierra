@@ -1,0 +1,377 @@
+window.SIERRA_CONTENT = {
+  date:'October 11, 2026',
+  routes:{
+    safe:{label:'All lakes · on trails',tag:'Full scenic itinerary',intro:'Minaret, Ediza, Garnet and Thousand Island, connected on mapped trails. The extra approach and JMT bypass make this a demanding four-day trip.',recommendation:'Best match for seeing every lake while avoiding the Cecile scramble. Only commit after access and conditions checks; the roughly 23-mile exit exceeds your 20-mile daily aim.',stops:['horseshoe','minaret','ediza','garnet','thousand'],camp:['Minaret Lake area','Ediza west-side area','Garnet Lake area','Exit Horseshoe Lake'],days:[
+      {title:'Horseshoe → Minaret',summary:'Mammoth Pass, Upper Crater Meadow, JMT and Minaret Creek.',stops:['horseshoe','minaret'],directions:['Start at Horseshoe Lake / Mammoth Pass trailhead, after parking and road access are confirmed.','Cross Mammoth Pass; use the cutoff toward Upper Crater Meadow and the JMT/PCT. The map uses this longer approach, not the direct resort spur.','Follow the ranger-confirmed open northbound trail connection through the Postpile area to Minaret Creek.','Take Minaret Creek upstream to Minaret Lake. Select a legal durable site, away from water and trail.'],warning:'The trail line is mapped; it does not establish permission to pass through the construction area.'},
+      {title:'Minaret → Ediza via JMT',summary:'Retrace Minaret Creek, then JMT north and the Ediza branch.',stops:['minaret','ediza'],directions:['Retrace Minaret Creek to its JMT junction.','Follow the JMT north through the Rosalie / Gladys lake country to the Shadow Creek–Ediza junction.','Follow the Ediza branch west to the lake. Use legal west-side camping, outside the posted restricted areas.','No Cecile traverse, cross-country ridge shortcut or peak summit is included. Any separate Iceberg outing must remain on the established trail from Ediza and requires its own conditions check.'],warning:'About 14 mapped miles, rather than the short Cecile connection. Start early and retain daylight margin.'},
+      {title:'Ediza → Garnet → Thousand Island',summary:'JMT north, Ruby / Emerald, then return to Garnet.',stops:['ediza','garnet','thousand'],directions:['Return from Ediza to the JMT and turn north toward Garnet. Do not cut directly over the ridge between the lake pins.','Continue on mapped trails to the Garnet lake area. Legal camps require a shoreline detour outside the outlet exclusion.','Visit Thousand Island via the JMT, Ruby and Emerald lakes; enjoy the Banner Peak views.','Return on the same trail to Garnet. Skip the Thousand Island out-and-back if you are behind schedule.'],warning:'GIS estimates include representative shoreline trail points. Guide distances to lake outlets are shorter; campsite choice changes this day.'},
+      {title:'Garnet → Horseshoe',summary:'Long southbound return on JMT and Mammoth Pass.',stops:['garnet','horseshoe'],directions:['Follow the JMT south past the Ediza junction and the Minaret Creek junction.','Use the same ranger-confirmed legal approach through the Postpile area.','Continue to Upper Crater Meadow and reverse the cutoff over Mammoth Pass.','Finish at Horseshoe Lake. Do not depend on Friday transport from a Reds Meadow road-access trailhead.'],warning:'Roughly 23 mapped miles before campsite detours. This is the limiting day for a three-night plan.'}
+    ]},
+    classic:{label:'Cecile connection',tag:'Conditional cross-country',intro:'The most continuous lake scenery, with the short Minaret–Cecile–Iceberg connection. This includes unmaintained terrain and line-dependent class 2–3 scrambling.',recommendation:'Not my default this week: forecast snow and freezing nights can change the terrain. Only consider it with a fresh dry-condition report, confident route-finding and reversible moves.',stops:['horseshoe','minaret','cecile','iceberg','ediza','garnet','thousand'],camp:['Minaret Lake area','Ediza west-side area','Garnet Lake area','Exit Horseshoe Lake'],days:[null,
+      {title:'Minaret → Cecile → Iceberg → Ediza',summary:'Rough lake connection; short mileage, substantial commitment.',stops:['minaret','cecile','iceberg','ediza'],directions:['Before leaving Minaret, choose the maintained JMT bypass unless you have a current dry-condition report and enough retreat time.','The recognized use route climbs from Minaret into Cecile basin, traverses rocky shoreline terrain and descends toward Iceberg. Several variants exist; the agency line is not exact scramble beta.','Expect loose talus, intermittent tread, hands-on moves and route-finding. Do not assume every line remains class 3 or below.','From Iceberg, follow the established trail toward Ediza and legal west-side camping.','If the descent or shoreline holds snow/ice, or the next moves are not confidently reversible, backtrack. A filter, fitness or microspikes does not resolve steep icy terrain.'],warning:'The orange dashed line is a documented mapped cross-country corridor, not a verified navigation track. No Volcanic Ridge or Minaret/Ritter/Banner summit climb is included.'},null,null
+    ]},
+    short:{label:'Minaret focus',tag:'Recommended · established trails',intro:'Use Minaret as your scenic focus, then return the same way. This preserves the Minarets while reducing the number of high lake basins and the long Friday exit.',recommendation:'My more conservative choice with this forecast, if the access and footing checks pass. It is still an alpine trip, not a weather-safe refuge. Descend or exit early if conditions worsen.',stops:['horseshoe','minaret'],camp:['Minaret Lake area','Minaret Lake area, or retreat','Minaret Lake area, or retreat','Exit Horseshoe Lake'],days:[null,
+      {title:'Minaret basin · flexible day',summary:'Rest, shoreline viewpoints or an early descent.',stops:['minaret'],directions:['Assess the actual snow, wind and accessible water before adding an outing.','Stay on the established Minaret Lake trail and accessible trail-side viewpoints. No Cecile traverse, off-trail shoreline scrambling, ridge shortcut or peak summit is included.','If the weather or footing deteriorates, start the same-trail exit. Three nights are a preference, not a reason to remain exposed.'],warning:'No extra exploration miles are counted. Legal intermediate camping may split the approach or return, but locations require ranger confirmation.'},
+      {title:'Minaret basin · flexible day',summary:'A second scenic day, or shorten the wilderness trip.',stops:['minaret'],directions:['Reassess the forecast and footing. Remain in legal sites and keep the same-trail retreat available.','Photograph the basin from accessible durable terrain. Do not treat historical photos as proof of current conditions.','Be willing to leave earlier than Friday rather than force the original schedule.'],warning:'The map intentionally adds no fabricated exploration loop or guaranteed bad-weather campsite.'},
+      {title:'Minaret → Horseshoe',summary:'Reverse the confirmed entry approach.',stops:['minaret','horseshoe'],directions:['Descend Minaret Creek to the JMT.','Reverse the ranger-confirmed legal trail connection through the Postpile area and Upper Crater Meadow.','Cross Mammoth Pass and return to the Horseshoe trailhead.'],warning:'The exit is still about 16 mapped miles, with climbing back over Mammoth Pass. Start early.'}
+    ]},
+    rush:{label:'Rush Creek · northern lakes',tag:'Different entry permit',intro:'Enter near Silver Lake and focus on Thousand Island and Garnet. This changes the trailhead and avoids dependence on the Reds Meadow approach.',recommendation:'An access alternative, not a snow workaround. It requires a Rush Creek AA05 permit, a separately confirmed parking plan, and current high-country conditions.',stops:['silver','thousand','garnet'],camp:['Thousand Island Lake area','Thousand Island Lake area','Thousand Island Lake area, or retreat','Exit Rush Creek'],days:[
+      {title:'Rush Creek → Thousand Island',summary:'Silver Lake trailhead, reservoir country and the PCT/JMT.',stops:['silver','thousand'],directions:['Confirm overnight parking at Rush Creek trailhead near Silver Lake on Highway 158 and reserve the correct entry permit.','Follow Rush Creek past Agnew and Gem lakes toward Waugh, then join the PCT/JMT and continue over Island Pass to Thousand Island. This map excludes the Clark / Spooky Meadow shortcuts.','Reach Thousand Island Lake and select a legal site outside the quarter-mile outlet exclusion.'],warning:'This itinerary is a separate permit and high-country route. The final mapped approach is described in the geometry source notes.'},
+      {title:'Thousand Island ↔ Garnet',summary:'Optional JMT outing past Emerald and Ruby.',stops:['thousand','garnet'],directions:['Follow the JMT south via Emerald and Ruby to Garnet.','Return on the same trail to your legal Thousand Island campsite.','Omit this outing if snow, ice, wind or daylight reduces your margin.'],warning:'Omitting Garnet reduces the total; actual camp and shoreline detours are extra.'},
+      {title:'Northern lakes · flexible day',summary:'Lake viewpoints, rest, or an earlier exit.',stops:['thousand'],directions:['Keep exploration on accessible mapped trails and durable terrain.','Reassess cold, wind, water access and your exit margin.','If conditions deteriorate, exit on the confirmed entry trail.'],warning:'No summit or off-trail pass is needed to enjoy the lake basin.'},
+      {title:'Thousand Island → Rush Creek',summary:'Reverse the mapped entry trail to Silver Lake.',stops:['thousand','silver'],directions:['Return by the same confirmed route through the Rush Creek drainage.','Finish at your authorized Silver Lake parking location.'],warning:'Confirm Highway 158 access and parking before departure; the permit does not guarantee either.'}
+    ]}
+  },
+  checks:[
+    {id:'parking',title:'Confirm the exact overnight parking spot',body:'Ask whether you may leave the car October 13–16 at Horseshoe Lake, and whether Lake Mary Road will remain accessible. The published “day use” description establishes facilities, not overnight permission.'},
+    {id:'approach',title:'Confirm the legal construction bypass',body:'Current order 05-04-52-26-19 closes Reds Meadow Road plus 200 feet on either side on weekdays. Comparing our mapped approach with USFS road geometry gives a minimum separation of about 342 metres, outside that corridor. This is map evidence, not current field clearance; confirm the exact trail connection with a ranger.'},
+    {id:'conditions',title:'Get a fresh trail snow / ice report',body:'Ask about Minaret, JMT passes, Ediza and the Cecile–Iceberg corridor. The forecast and historic photographs are not current field observations.'}
+  ],
+  sources:[
+    {title:'National Forest System Trails',url:'https://services9.arcgis.com/5rkKDrGuFJxI7V5b/arcgis/rest/services/USFS_National_Forest_System_Trails/FeatureServer/0',note:'Actual agency GIS trail geometry. Retrieved Oct 11, 2026. Lines do not establish legal access, maintenance or current passability.'},
+    {title:'National Park Service public trails',url:'https://mapservices.nps.gov/arcgis/rest/services/NationalDatasets/NPS_Public_Trails/FeatureServer/0',note:'Actual monument trail geometry for the Postpile connection. Small agency-boundary mapping gap remains unrendered.'},
+    {title:'Devils Postpile access and parking',url:'https://home.nps.gov/depo/planyourvisit/hours.htm',note:'Official page updated Oct 7, 2026: weekend-only road access; no valley overnight parking after Oct 15.'},
+    {title:'Alpine NWS point forecast',url:'https://forecast.weather.gov/MapClick.php?lat=37.67&lon=-119.16',note:'Observed in Safari Oct 11; issued 8:56 p.m. PDT. Nearby grid point at 10,971 ft. Forecast, not actual snow/ice observation.'},
+    {title:'Horseshoe Lake trailhead',url:'https://webapp-prod.mammothtrails.org/destination/95/horseshoe-lake-trailhead/',note:'Local trail system describes Lake Mary Road location, large parking area and bathrooms. Overnight parking permission remains unconfirmed.'},
+    {title:'Minaret Lake trail and lake connection',url:'https://webapp-prod.mammothtrails.org/trail/106/minaret-lake-trail/',note:'Local trail system: Minaret Creek trail 5.1 mi from JMT; identifies Cecile / Iceberg loop option. Does not certify a class ceiling or current conditions.'},
+    {title:'Red Cones cutoff',url:'https://webapp-prod.mammothtrails.org/trail/79/red-cones-cutoff/',note:'Local description of the 1.3-mile Upper Crater Meadow connector. Separate construction compliance must still be checked.'},
+    {title:'Reds Meadow construction project',url:'https://www.fs.usda.gov/r05/inyo/projects/reds-meadow-road-reconstruction',note:'Current signed 2026 order obtained: 05-04-52-26-19. Weekday road and 200-foot corridor closure applies October 13–16. A normal wilderness permit is not an exemption. Our mapped approach stays outside the corridor based on USFS GIS.'},
+    {title:'Wilderness permit rules',url:'https://www.recreation.gov/permits/233262',note:'Entry date/trail and continuous-trip rules; print by 10 a.m. entry day. Earlier calendar selection was AA16, Oct 13, one person; nothing was booked.'},
+    {title:'Camping restriction map',url:'https://www.fs.usda.gov/sites/nfs/files/r05/inyo/publication/alerts/05-04-50-25-02%20Wilderness%20Use%20Restrictions.pdf',note:'Ediza / Shadow and Garnet / Thousand Island exclusion exhibits. Confirm the current effective order with a ranger.'},
+    {title:'JMT guidance and restrictions',url:'https://www.fs.usda.gov/media/123041',note:'Camping, fire, bear-storage guidance. No camping within a quarter mile of Garnet / Thousand Island outlets; Ediza south/east restrictions.'},
+    {title:'Sawyer filter freezing guidance',url:'https://help.sawyer.com/retail/products/squeeze-water-filter',note:'Wetted hollow-fiber filters must not freeze; suspected freeze damage cannot be reliably checked. Follow the instructions for your actual model.'},
+    {title:'Detailed Ediza–Thousand Island guide',url:'https://www.hikespeak.com/trails/ediza-lake-thousand-island-lake-loop-ansel-adams-wilderness/',note:'Useful distance cross-check: outlet-to-outlet distances differ from our representative shoreline trail endpoints.'},
+    {title:'Historic Cecile traverse photo report',url:'https://seatosummitultralight.blogspot.com/2013/07/minaret-loop-july-15th-17th.html',note:'Firsthand 2013 route photos. Informative for terrain, not October 2026 snow or passability.'},
+    {title:'Historic class 2–3 / snow route account',url:'https://www.highsierratopix.com/community/viewtopic.php?t=23162',note:'Firsthand 2023 account illustrates line-dependent loose scrambling and snow. Not a current condition report.'}
+  ]
+};
+// A longer total, with a shorter exit and two nights at Ediza.
+window.SIERRA_CONTENT.routes.balanced = {
+  ...window.SIERRA_CONTENT.routes.safe,
+  label:'All lakes · more even days',
+  tag:'Closer to the 20-mile daily aim',
+  intro:'Keep every major lake, return to Ediza Thursday, and leave from there Friday. This trades more total walking for a less concentrated exit.',
+  recommendation:'If all-lake scenery is the priority and the access / conditions checks pass, this spreads the walking more evenly: about 16 / 14 / 19 / 20 mapped miles. The ~20-mile exit is before campsite detours, so it is not a strict 20-mile cap.',
+  camp:['Minaret Lake area','Ediza west-side area','Ediza west-side area','Exit Horseshoe Lake'],
+  days:[window.SIERRA_CONTENT.routes.safe.days[0],window.SIERRA_CONTENT.routes.safe.days[1],
+    {title:'Ediza ↔ Thousand Island via Garnet',summary:'JMT lake tour, then return to Ediza for a shorter Friday.',stops:['ediza','garnet','thousand'],directions:['Leave your legal Ediza camp and follow the Ediza branch back to the JMT. Turn north toward Garnet.','Visit Garnet, Ruby / Emerald and Thousand Island on the mapped trail itinerary.','Return on the same trails past Garnet to Ediza for your third night.','Skip Thousand Island or turn around sooner if you are behind schedule; this is a long out-and-back.'],warning:'Roughly 19 mapped miles with several climbs. It adds total walking but avoids moving your third-night camp farther north.'},
+    {title:'Ediza → Horseshoe',summary:'JMT south, Upper Crater approach and Mammoth Pass.',stops:['ediza','horseshoe'],directions:['Return from Ediza to the JMT and follow it south through the lake country.','Use the same ranger-confirmed legal connection through the Postpile area to Upper Crater Meadow.','Reverse the cutoff and Mammoth Pass approach to Horseshoe Lake.'],warning:'Approximately 20 mapped miles, before campsite and shoreline detours. More even than the Garnet exit, but still a substantial final day.'}
+  ]
+};
+
+Object.assign(window.SIERRA_CONTENT.routes,{
+  "duck": {
+    "label": "Duck Pass \u00b7 Purple & Silver Divide",
+    "tag": "New \u00b7 30.7 mapped miles",
+    "intro": "A no-shuttle lake tour south of Mammoth: Duck Pass, Purple Lake, Lake Virginia and the Silver Divide near Chief Lake. Return by the same trails.",
+    "recommendation": "A strong shorter scenic alternative if Lake Mary Road, Coldwater parking and current pass footing are confirmed. All miles are mapped trail estimates; actual legal camps and shore detours add distance.",
+    "stops": [
+      "coldwater",
+      "duck",
+      "purple",
+      "virginia",
+      "chief"
+    ],
+    "camp": [
+      "Purple Lake legal area",
+      "Chief Lake legal area",
+      "Duck Lake legal area",
+      "Exit Coldwater"
+    ],
+    "days": [
+      {
+        "title": "Coldwater \u2192 Purple",
+        "summary": "Duck Pass and the southbound JMT/PCT.",
+        "stops": [
+          "coldwater",
+          "duck",
+          "purple"
+        ],
+        "directions": [
+          "Start from the Duck Pass trailhead at Coldwater after checking the exact legal overnight parking space and seasonal road access.",
+          "Follow Duck Pass past the lake basin; descend the Duck Pass trail to the JMT/PCT junction and turn south toward Purple Lake.",
+          "Camp on durable ground outside the 300-foot Purple outlet exclusion and at least 100 feet from water and trail."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance."
+      },
+      {
+        "title": "Purple \u2192 Chief",
+        "summary": "Lake Virginia, Tully Hole and the Silver Divide.",
+        "stops": [
+          "purple",
+          "virginia",
+          "chief"
+        ],
+        "directions": [
+          "Follow the southbound JMT/PCT past Lake Virginia and down to Tully Hole.",
+          "Continue toward the Silver Divide and the mapped trail point near Chief Lake. Do not invent a direct lake-to-lake shortcut.",
+          "Choose a legal established site near Chief; the pin is a basin reference, not a marked campsite."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance. The mapped endpoint is near the lake, not its shoreline; campsite approach is extra."
+      },
+      {
+        "title": "Chief \u2192 Duck",
+        "summary": "Reverse the lake corridor to Duck.",
+        "stops": [
+          "chief",
+          "virginia",
+          "purple",
+          "duck"
+        ],
+        "directions": [
+          "Reverse the JMT/PCT through Tully Hole, Lake Virginia and Purple.",
+          "Turn onto the Duck Pass branch and climb into the Duck Lake basin.",
+          "Use a legal site away from the 300-foot Duck outlet exclusion. Avoid turning a long day into an unplanned summit outing."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance."
+      },
+      {
+        "title": "Duck \u2192 Coldwater",
+        "summary": "Cross Duck Pass and descend to the car.",
+        "stops": [
+          "duck",
+          "coldwater"
+        ],
+        "directions": [
+          "Retrace the Duck Pass trail to Coldwater.",
+          "Use the same authorized parking arrangement; no shuttle is required."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance."
+      }
+    ],
+    "permitCode": "JM01",
+    "previewPlace": "duck",
+    "checks": [
+      {
+        "id": "duck-parking",
+        "title": "Confirm Coldwater overnight parking and Lake Mary Road",
+        "body": "Ask for the exact overnight spaces and Oct 13\u201316 seasonal access. Do not assume campground parking is available."
+      },
+      {
+        "id": "duck-permit",
+        "title": "Reserve JM01 for Oct 13, one person",
+        "body": "Book the matching entry, exit Oct 16 and one continuous trip. Browser quota snapshot is not a reservation."
+      },
+      {
+        "id": "duck-conditions",
+        "title": "Get a fresh snow, ice and water report",
+        "body": "Duck Pass and the Silver Divide are exposed. Confirm footing and legal outlet setbacks at Duck and Purple."
+      }
+    ]
+  },
+  "mcgee": {
+    "label": "McGee Pass \u00b7 Tully & Virginia",
+    "tag": "New \u00b7 35.3 mapped miles",
+    "intro": "Autumn canyon, Big McGee Lake, a high pass and Tully basin; visit Lake Virginia before returning to the same trailhead.",
+    "recommendation": "An appealing no-shuttle alternative, with a significant high-pass commitment. Crossing McGee Pass twice is conditional on dry, stable footing and a current report; it is not a snow workaround.",
+    "stops": [
+      "mcgee",
+      "bigmcgee",
+      "tully",
+      "virginia"
+    ],
+    "camp": [
+      "Big McGee legal area",
+      "Tully Lake legal area",
+      "Big McGee legal area",
+      "Exit McGee Creek"
+    ],
+    "days": [
+      {
+        "title": "McGee Creek \u2192 Big McGee",
+        "summary": "Canyon ascent and the lake branch.",
+        "stops": [
+          "mcgee",
+          "bigmcgee"
+        ],
+        "directions": [
+          "Reach McGee Creek trailhead at the end of McGee Creek Road after checking road condition and overnight parking permission.",
+          "Follow McGee Pass trail up the canyon and take the mapped Big McGee Lake branch.",
+          "Select durable legal ground at least 100 feet from water and trail."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance."
+      },
+      {
+        "title": "Big McGee \u2192 Tully",
+        "summary": "Cross McGee Pass into the western basin.",
+        "stops": [
+          "bigmcgee",
+          "tully"
+        ],
+        "directions": [
+          "Return to the McGee Pass trail and assess the pass before committing.",
+          "Cross only with acceptable current snow, wind and footing; retain time to retreat.",
+          "Continue down the western side and take the mapped Tully Lake branch to a legal site."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance. McGee Pass is roughly 11,900 feet; the return also requires crossing it."
+      },
+      {
+        "title": "Tully \u2194 Virginia \u2192 Big McGee",
+        "summary": "Optional JMT lake visit, then return over the pass.",
+        "stops": [
+          "tully",
+          "virginia",
+          "bigmcgee"
+        ],
+        "directions": [
+          "Retrace the Tully branch to McGee Pass trail, follow it toward the JMT/PCT, then take the northbound JMT/PCT to Lake Virginia.",
+          "Return on the same trails to Tully; skip this optional excursion if conditions or daylight reduce your margin.",
+          "Return east over McGee Pass to Big McGee Lake and a legal site."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance. This is the longest day at about 15 mapped miles, before camps and shore detours."
+      },
+      {
+        "title": "Big McGee \u2192 trailhead",
+        "summary": "Descend the same canyon.",
+        "stops": [
+          "bigmcgee",
+          "mcgee"
+        ],
+        "directions": [
+          "Retrace the Big McGee branch and descend McGee Pass trail to the trailhead.",
+          "Finish at the authorized McGee Creek parking spot."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance."
+      }
+    ],
+    "permitCode": "JM05",
+    "previewPlace": "bigmcgee",
+    "checks": [
+      {
+        "id": "mcgee-parking",
+        "title": "Confirm McGee Creek Road and overnight parking",
+        "body": "Ask about the final road condition, overnight spaces and any early snow closure."
+      },
+      {
+        "id": "mcgee-permit",
+        "title": "Reserve JM05 for Oct 13, one person",
+        "body": "Book the matching entry, exit Oct 16 and one continuous trip. Browser quota snapshot is not a reservation."
+      },
+      {
+        "id": "mcgee-conditions",
+        "title": "Get a fresh snow, ice and water report",
+        "body": "McGee Pass is crossed twice; obtain a current report. Cut the optional Virginia outing if daylight or weather reduces the return margin."
+      }
+    ]
+  },
+  "sabrina": {
+    "label": "Sabrina Basin \u00b7 alpine lake base",
+    "tag": "New \u00b7 shorter 26.5 mapped miles",
+    "intro": "Base near Hungry Packer Lake beneath the granite crest, with mapped out-and-back visits to Midnight and Baboon Lakes. This is shorter than the other additions.",
+    "recommendation": "Best of these three for avoiding a major crest-pass crossing, subject to actual snow and icy trail conditions. It still reaches an exposed alpine basin. The Baboon branch includes a cairn-marked path and deserves extra route-finding care.",
+    "stops": [
+      "sabrina",
+      "blue",
+      "hungrypacker",
+      "midnight",
+      "baboon"
+    ],
+    "camp": [
+      "Hungry Packer legal area",
+      "Hungry Packer legal area",
+      "Hungry Packer legal area",
+      "Exit Sabrina"
+    ],
+    "days": [
+      {
+        "title": "Sabrina \u2192 Hungry Packer",
+        "summary": "Blue Lake, Dingleberry country and the crest basin.",
+        "stops": [
+          "sabrina",
+          "blue",
+          "hungrypacker"
+        ],
+        "directions": [
+          "Park in the signed overnight turnout near the North Lake turnoff, as described by the Forest Service; the lake-end lot is day use. Confirm current signs and Hwy 168 access.",
+          "Walk to the Sabrina trailhead; that road approach is extra to the mapped mileage.",
+          "Follow Sabrina Basin trail past Blue Lake; take the right fork toward Dingleberry and the Hungry Packer branch.",
+          "Choose a legal durable site at least 100 feet from water and trail."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance. Road walking from overnight parking is not included in the 26.5-mile total."
+      },
+      {
+        "title": "Hungry Packer \u2194 Midnight",
+        "summary": "A short mapped lake outing.",
+        "stops": [
+          "hungrypacker",
+          "midnight"
+        ],
+        "directions": [
+          "Return to the Sabrina Basin junction and take the Midnight Lake branch.",
+          "Retrace to the same legal Hungry Packer camp.",
+          "Keep optional lake-edge exploration reversible and away from steep icy terrain."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance."
+      },
+      {
+        "title": "Hungry Packer \u2194 Baboon",
+        "summary": "Return to the Blue Lake branch and visit another basin.",
+        "stops": [
+          "hungrypacker",
+          "baboon"
+        ],
+        "directions": [
+          "Retrace toward Blue Lake and take the left fork toward Donkey and Baboon Lakes.",
+          "The Forest Service describes this branch as a cairn-marked path; expect route-finding and rough footing. Do not assume the mapped line means obvious tread in snow.",
+          "Return on the same branch to Hungry Packer. Shorten the outing if navigation, ice or daylight is uncertain."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance. No off-trail pass or summit is included."
+      },
+      {
+        "title": "Hungry Packer \u2192 Sabrina",
+        "summary": "Reverse the basin trail and return to overnight parking.",
+        "stops": [
+          "hungrypacker",
+          "blue",
+          "sabrina"
+        ],
+        "directions": [
+          "Retrace the Hungry Packer and Sabrina Basin trails to the trailhead.",
+          "Continue on the road to the signed overnight parking area."
+        ],
+        "warning": "Snow and ice can make an established trail impassable. This is a planning itinerary, not current field clearance. Road walk adds distance on the exit as well."
+      }
+    ],
+    "permitCode": "JM17",
+    "previewPlace": "blue",
+    "checks": [
+      {
+        "id": "sabrina-parking",
+        "title": "Use Sabrina\u2019s signed overnight turnout",
+        "body": "USDA identifies the turnout near the North Lake turnoff; the lake-end lot is day use. Confirm current signs and Hwy 168 access. Road walking adds distance both ways."
+      },
+      {
+        "id": "sabrina-permit",
+        "title": "Reserve JM17 for Oct 13, one person",
+        "body": "Book the matching entry, exit Oct 16 and one continuous trip. Browser quota snapshot is not a reservation."
+      },
+      {
+        "id": "sabrina-conditions",
+        "title": "Get a fresh snow, ice and water report",
+        "body": "Hungry Packer basin and the cairn-marked Baboon branch need fresh footing/navigation reports. Keep the lake outings optional."
+      }
+    ]
+  }
+});
+window.SIERRA_CONTENT.sources.push(...[
+  {
+    "title": "Sabrina Basin official trail brochure",
+    "url": "https://www.fs.usda.gov/media/123424",
+    "note": "Overnight parking turnout near North Lake turnoff; lake-end lot day use; Baboon branch described as cairn-marked path. Road approach mileage is extra."
+  },
+  {
+    "title": "Inyo wilderness trail names and quotas",
+    "url": "https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5143453.pdf",
+    "note": "Entry names/codes. Live inventory separately checked through Recreation.gov; static quotas are not available spaces."
+  },
+  {
+    "title": "Reds Meadow shuttle season",
+    "url": "https://www.estransit.com/reds-meadow-shuttle",
+    "note": "2026 service ends Oct 11. No shuttle is assumed for Oct 13\u201316."
+  }
+]);
+
+window.SIERRA_CONTENT.sources.push(
+{title:'Duck Pass vicinity NWS forecast',url:'https://forecast.weather.gov/MapClick.php?lat=37.5587&lon=-118.9627',note:'Official grid read in browser Oct 11; nearby 11,404 ft point. Refresh before departure.'},
+{title:'McGee Pass vicinity NWS forecast',url:'https://forecast.weather.gov/MapClick.php?lat=37.488&lon=-118.843',note:'Official grid read in browser Oct 11; nearby 11,572 ft point. Forecast does not prove current pass footing.'},
+{title:'Sabrina / Hungry Packer NWS forecast',url:'https://forecast.weather.gov/MapClick.php?lat=37.1617&lon=-118.6405',note:'Official grid read in browser Oct 11; nearby 11,201 ft point. Separate from the Mammoth reference.'});

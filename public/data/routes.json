@@ -1,0 +1,481 @@
+{
+  "routes": [
+    {
+      "id": "safe",
+      "title": "All lakes \u00b7 mapped trails",
+      "miles": 65.7,
+      "days": [
+        {
+          "day": 1,
+          "name": "Horseshoe Lake \u2192 Minaret Lake",
+          "miles": 16.1,
+          "featureIds": [
+            "safe-1-0"
+          ],
+          "legs": [
+            "Horseshoe Lake \u2192 Minaret Lake"
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Minaret Lake \u2192 Ediza Lake",
+          "miles": 14.2,
+          "featureIds": [
+            "safe-2-1"
+          ],
+          "legs": [
+            "Minaret Lake \u2192 Ediza Lake"
+          ]
+        },
+        {
+          "day": 3,
+          "name": "Ediza Lake \u2192 Garnet Lake; Garnet Lake \u2192 Thousand Island Lake; Thousand Island Lake \u2192 Garnet Lake",
+          "miles": 12.5,
+          "featureIds": [
+            "safe-3-2",
+            "safe-3-3",
+            "safe-3-4"
+          ],
+          "legs": [
+            "Ediza Lake \u2192 Garnet Lake",
+            "Garnet Lake \u2192 Thousand Island Lake",
+            "Thousand Island Lake \u2192 Garnet Lake"
+          ]
+        },
+        {
+          "day": 4,
+          "name": "Garnet Lake \u2192 Horseshoe Lake",
+          "miles": 22.8,
+          "featureIds": [
+            "safe-4-5"
+          ],
+          "legs": [
+            "Garnet Lake \u2192 Horseshoe Lake"
+          ]
+        }
+      ],
+      "status": "Planning estimate: ranger/current-conditions confirmation required",
+      "entry": "Red Cones AA16 / Horseshoe Lake",
+      "distanceBasis": "Length of agency GIS lines to representative trail points near lakes. Shore exploration, actual campsite approach, elevation, and detours add distance. Approximate, not GPS-measured.",
+      "description": "Long mapped-trail version; ~14 miles Minaret\u2013Ediza and a ~23-mile last day. Avoid assuming the fallback preserves the original mileage."
+    },
+    {
+      "id": "short",
+      "title": "Minaret focus \u00b7 fewer exposed objectives",
+      "miles": 32.3,
+      "days": [
+        {
+          "day": 1,
+          "name": "Horseshoe Lake \u2192 Minaret Lake",
+          "miles": 16.1,
+          "featureIds": [
+            "short-1-0"
+          ],
+          "legs": [
+            "Horseshoe Lake \u2192 Minaret Lake"
+          ]
+        },
+        {
+          "day": 4,
+          "name": "Minaret Lake \u2192 Horseshoe Lake",
+          "miles": 16.1,
+          "featureIds": [
+            "short-4-1"
+          ],
+          "legs": [
+            "Minaret Lake \u2192 Horseshoe Lake"
+          ]
+        }
+      ],
+      "status": "Planning estimate: ranger/current-conditions confirmation required",
+      "entry": "Red Cones AA16 / Horseshoe Lake",
+      "distanceBasis": "Length of agency GIS lines to representative trail points near lakes. Shore exploration, actual campsite approach, elevation, and detours add distance. Approximate, not GPS-measured.",
+      "description": "Same Red Cones entry, Minaret as a base, then reverse entry. Spread the 16-mile approach/exit over intermediate camps where legal. No claim of light effort."
+    },
+    {
+      "id": "rush",
+      "title": "Rush Creek \u00b7 Thousand Island base",
+      "miles": 31.7,
+      "days": [
+        {
+          "day": 1,
+          "name": "Rush Creek trailhead \u2192 Thousand Island Lake",
+          "miles": 12.8,
+          "featureIds": [
+            "rush-1-0"
+          ],
+          "legs": [
+            "Rush Creek trailhead \u2192 Thousand Island Lake"
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Thousand Island Lake \u2192 Garnet Lake; Garnet Lake \u2192 Thousand Island Lake",
+          "miles": 6.2,
+          "featureIds": [
+            "rush-2-1",
+            "rush-2-2"
+          ],
+          "legs": [
+            "Thousand Island Lake \u2192 Garnet Lake",
+            "Garnet Lake \u2192 Thousand Island Lake"
+          ]
+        },
+        {
+          "day": 4,
+          "name": "Thousand Island Lake \u2192 Rush Creek trailhead",
+          "miles": 12.8,
+          "featureIds": [
+            "rush-4-3"
+          ],
+          "legs": [
+            "Thousand Island Lake \u2192 Rush Creek trailhead"
+          ]
+        }
+      ],
+      "status": "Planning estimate: ranger/current-conditions confirmation required",
+      "entry": "Rush Creek AA05 (new permit required)",
+      "distanceBasis": "Length of agency GIS lines to representative trail points near lakes. Shore exploration, actual campsite approach, elevation, and detours add distance. Approximate, not GPS-measured.",
+      "description": "Alternate trailhead and permit. Silver Lake \u2192 Agnew/Gem/Waugh Lakes \u2192 Island Pass/JMT/PCT \u2192 Thousand Island; optional Garnet out/back. Maintained-trail alternative; confirm Rush Creek overnight parking."
+    },
+    {
+      "id": "balanced",
+      "title": "All lakes \u00b7 more even days",
+      "miles": 69.3,
+      "days": [
+        {
+          "day": 1,
+          "name": "Horseshoe Lake \u2192 Minaret Lake",
+          "miles": 16.1,
+          "featureIds": [
+            "balanced-1-0"
+          ],
+          "legs": [
+            "Horseshoe Lake \u2192 Minaret Lake"
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Minaret Lake \u2192 Ediza Lake",
+          "miles": 14.2,
+          "featureIds": [
+            "balanced-2-1"
+          ],
+          "legs": [
+            "Minaret Lake \u2192 Ediza Lake"
+          ]
+        },
+        {
+          "day": 3,
+          "name": "Ediza Lake \u2192 Garnet Lake; Garnet Lake \u2192 Thousand Island Lake; Thousand Island Lake \u2192 Garnet Lake; Garnet Lake \u2192 Ediza Lake",
+          "miles": 18.8,
+          "featureIds": [
+            "balanced-3-2",
+            "balanced-3-3",
+            "balanced-3-4",
+            "balanced-3-5"
+          ],
+          "legs": [
+            "Ediza Lake \u2192 Garnet Lake",
+            "Garnet Lake \u2192 Thousand Island Lake",
+            "Thousand Island Lake \u2192 Garnet Lake",
+            "Garnet Lake \u2192 Ediza Lake"
+          ]
+        },
+        {
+          "day": 4,
+          "name": "Ediza Lake \u2192 Horseshoe Lake",
+          "miles": 20.1,
+          "featureIds": [
+            "balanced-4-6"
+          ],
+          "legs": [
+            "Ediza Lake \u2192 Horseshoe Lake"
+          ]
+        }
+      ],
+      "status": "Planning estimate: ranger/current-conditions confirmation required",
+      "entry": "Red Cones AA16 / Horseshoe Lake",
+      "distanceBasis": "Length of agency GIS lines to representative trail points near lakes. Shore exploration, actual campsite approach, elevation, and detours add distance. Approximate, not GPS-measured.",
+      "description": "Keep nights two and three at Ediza. Day three visits Garnet and Thousand Island then retraces mapped trails. Adds mileage but reduces the final exit from about 23 to about 20 miles; access and footing still need confirmation."
+    },
+    {
+      "id": "duck",
+      "title": "Duck Pass \u00b7 Purple & Silver Divide",
+      "miles": 30.7,
+      "days": [
+        {
+          "day": 1,
+          "name": "Coldwater / Duck Pass trailhead \u2192 Purple Lake trail area",
+          "miles": 7.7,
+          "featureIds": [
+            "duck-1-0"
+          ],
+          "legs": [
+            "Coldwater / Duck Pass trailhead \u2192 Purple Lake trail area"
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Purple Lake trail area \u2192 Chief Lake trail area",
+          "miles": 7.6,
+          "featureIds": [
+            "duck-2-1"
+          ],
+          "legs": [
+            "Purple Lake trail area \u2192 Chief Lake trail area"
+          ]
+        },
+        {
+          "day": 3,
+          "name": "Chief Lake trail area \u2192 Duck Lake trail area",
+          "miles": 11.6,
+          "featureIds": [
+            "duck-3-2"
+          ],
+          "legs": [
+            "Chief Lake trail area \u2192 Duck Lake trail area"
+          ]
+        },
+        {
+          "day": 4,
+          "name": "Duck Lake trail area \u2192 Coldwater / Duck Pass trailhead",
+          "miles": 3.7,
+          "featureIds": [
+            "duck-4-3"
+          ],
+          "legs": [
+            "Duck Lake trail area \u2192 Coldwater / Duck Pass trailhead"
+          ]
+        }
+      ],
+      "status": "Planning estimate: current snow, access and legal camping confirmation required",
+      "entry": "Duck Pass JM01 / Coldwater",
+      "distanceBasis": "Agency GIS lengths to representative trail points; actual camps, shore detours and elevation are extra. Not a GPS track.",
+      "description": "On-trail out-and-back through Duck Pass, Purple, Lake Virginia and the Silver Divide near Chief Lake. No shuttle."
+    },
+    {
+      "id": "mcgee",
+      "title": "McGee Pass \u00b7 Tully & Virginia",
+      "miles": 35.3,
+      "days": [
+        {
+          "day": 1,
+          "name": "McGee Creek trailhead \u2192 Big McGee Lake",
+          "miles": 7.3,
+          "featureIds": [
+            "mcgee-1-0"
+          ],
+          "legs": [
+            "McGee Creek trailhead \u2192 Big McGee Lake"
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Big McGee Lake \u2192 Tully Lake",
+          "miles": 5.8,
+          "featureIds": [
+            "mcgee-2-1"
+          ],
+          "legs": [
+            "Big McGee Lake \u2192 Tully Lake"
+          ]
+        },
+        {
+          "day": 3,
+          "name": "Tully Lake \u2192 Lake Virginia north-shore trail area; Lake Virginia north-shore trail area \u2192 Tully Lake; Tully Lake \u2192 Big McGee Lake",
+          "miles": 14.9,
+          "featureIds": [
+            "mcgee-3-2",
+            "mcgee-3-3",
+            "mcgee-3-4"
+          ],
+          "legs": [
+            "Tully Lake \u2192 Lake Virginia north-shore trail area",
+            "Lake Virginia north-shore trail area \u2192 Tully Lake",
+            "Tully Lake \u2192 Big McGee Lake"
+          ]
+        },
+        {
+          "day": 4,
+          "name": "Big McGee Lake \u2192 McGee Creek trailhead",
+          "miles": 7.3,
+          "featureIds": [
+            "mcgee-4-5"
+          ],
+          "legs": [
+            "Big McGee Lake \u2192 McGee Creek trailhead"
+          ]
+        }
+      ],
+      "status": "Planning estimate: current snow, access and legal camping confirmation required",
+      "entry": "McGee Pass JM05 / McGee Creek",
+      "distanceBasis": "Agency GIS lengths to representative trail points; actual camps, shore detours and elevation are extra. Not a GPS track.",
+      "description": "Cross McGee Pass into Tully basin; optional Lake Virginia excursion, then return to Big McGee and the same trailhead. No shuttle."
+    },
+    {
+      "id": "sabrina",
+      "title": "Sabrina Basin \u00b7 Hungry Packer & Midnight",
+      "miles": 17.0,
+      "days": [
+        {
+          "day": 1,
+          "name": "Lake Sabrina trailhead \u2192 Hungry Packer Lake",
+          "miles": 6.8,
+          "featureIds": [
+            "sabrina-1-0"
+          ],
+          "legs": [
+            "Lake Sabrina trailhead \u2192 Hungry Packer Lake"
+          ]
+        },
+        {
+          "day": 2,
+          "name": "Hungry Packer Lake \u2192 Midnight Lake; Midnight Lake \u2192 Hungry Packer Lake",
+          "miles": 3.4,
+          "featureIds": [
+            "sabrina-2-1",
+            "sabrina-2-2"
+          ],
+          "legs": [
+            "Hungry Packer Lake \u2192 Midnight Lake",
+            "Midnight Lake \u2192 Hungry Packer Lake"
+          ]
+        },
+        {
+          "day": 4,
+          "name": "Hungry Packer Lake \u2192 Lake Sabrina trailhead",
+          "miles": 6.8,
+          "featureIds": [
+            "sabrina-4-5"
+          ],
+          "legs": [
+            "Hungry Packer Lake \u2192 Lake Sabrina trailhead"
+          ]
+        }
+      ],
+      "status": "Planning estimate: current snow, access and legal camping confirmation required",
+      "entry": "Sabrina Lake JM17 / Lake Sabrina",
+      "distanceBasis": "Agency GIS lengths to representative trail points; actual camps, shore detours and elevation are extra. Not a GPS track.",
+      "description": "Four-day hiking-trail base plan. Baboon cairn-marked branch omitted under the Class 2 constraint. Road walk from overnight turnout adds distance."
+    }
+  ],
+  "waypoints": {
+    "silver": {
+      "feature_coordinate": [
+        -119.1287,
+        37.7795
+      ],
+      "nearest_trail_coordinate": [
+        -119.1297,
+        37.77924
+      ],
+      "offset_metres": 93
+    },
+    "horseshoe": {
+      "feature_coordinate": [
+        -119.0212166,
+        37.6129587
+      ],
+      "nearest_trail_coordinate": [
+        -119.02105,
+        37.61317
+      ],
+      "offset_metres": 28
+    },
+    "minaret": {
+      "feature_coordinate": [
+        -119.15671,
+        37.65936
+      ],
+      "nearest_trail_coordinate": [
+        -119.15937,
+        37.66066
+      ],
+      "offset_metres": 275
+    },
+    "cecile": {
+      "feature_coordinate": [
+        -119.16676,
+        37.66402
+      ],
+      "nearest_trail_coordinate": [
+        -119.16555,
+        37.66591
+      ],
+      "offset_metres": 236
+    },
+    "iceberg": {
+      "feature_coordinate": [
+        -119.16912,
+        37.67041
+      ],
+      "nearest_trail_coordinate": [
+        -119.16655,
+        37.67017
+      ],
+      "offset_metres": 228
+    },
+    "ediza": {
+      "feature_coordinate": [
+        -119.16655,
+        37.68507
+      ],
+      "nearest_trail_coordinate": [
+        -119.16507,
+        37.6851
+      ],
+      "offset_metres": 130
+    },
+    "garnet": {
+      "feature_coordinate": [
+        -119.162589,
+        37.708849
+      ],
+      "nearest_trail_coordinate": [
+        -119.16657,
+        37.71008
+      ],
+      "offset_metres": 376
+    },
+    "thousand": {
+      "feature_coordinate": [
+        -119.18328,
+        37.72074
+      ],
+      "nearest_trail_coordinate": [
+        -119.18648,
+        37.72429
+      ],
+      "offset_metres": 485
+    },
+    "shadow": {
+      "feature_coordinate": [
+        -119.1367,
+        37.6817
+      ],
+      "nearest_trail_coordinate": [
+        -119.14339,
+        37.68995
+      ],
+      "offset_metres": 1090
+    }
+  },
+  "sources": [
+    {
+      "name": "USDA Forest Service National Forest System Trails",
+      "url": "https://services9.arcgis.com/5rkKDrGuFJxI7V5b/arcgis/rest/services/USFS_National_Forest_System_Trails/FeatureServer/0"
+    },
+    {
+      "name": "National Park Service Public Trails",
+      "url": "https://mapservices.nps.gov/arcgis/rest/services/NationalDatasets/NPS_Public_Trails/FeatureServer/0"
+    }
+  ],
+  "retrieved": "2026-10-11",
+  "notes": [
+    "Agency GIS geometry is not current proof of open/passable/legal trails.",
+    "No fabricated straight lake-to-lake navigation tracks. A 59 m agency-boundary gap is deliberately unrendered.",
+    "All Horseshoe routes use Mammoth Pass Cutoff \u2192 Upper Crater Meadow/PCT, avoiding direct Mammoth Pass\u2013Reds Meadow resort trail. Construction/legal access still needs ranger confirmation.",
+    "Lake pins refer to feature locations; route ends are nearest trail vertices, not designated campsites."
+  ]
+}
