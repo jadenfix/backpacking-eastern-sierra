@@ -61,6 +61,11 @@ export function initialRoute(search: string): RouteId {
   const id = new URLSearchParams(search).get("route");
   return routeOrder.includes(id as RouteId) ? (id as RouteId) : "short";
 }
+export function initialDay(search: string): number {
+  const raw = new URLSearchParams(search).get("day");
+  if (!raw || !/^[1-4]$/.test(raw)) return 0;
+  return Number(raw);
+}
 export function filteredRoutes(data: Dataset, query: string, maxMiles: number) {
   const q = query.toLocaleLowerCase().trim();
   return data.routes.filter(

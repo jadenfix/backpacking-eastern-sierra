@@ -18,6 +18,9 @@ jobs:
       - run: npm test
       - run: npm run validate
       - run: npm run build
+      - run: npx playwright install --only-shell --with-deps chromium
+      - run: npm run browser:e2e
+      - run: npm run demo:verify
       - uses: actions/upload-artifact@v4
         with:
           name: production-atlas

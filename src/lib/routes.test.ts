@@ -4,6 +4,7 @@ import { readDataset, validateDataset } from "../../scripts/validate-data";
 import { normalizeData } from "./data";
 import {
   filteredRoutes,
+  initialDay,
   initialRoute,
   isSnapshotStale,
   routeDay,
@@ -111,6 +112,18 @@ test("search uses exact permit code and route-specific text while mileage bounds
 
 test("URL route initialization accepts eligible deep links and rejects missing/invalid/injection values", () => {
   assert.equal(initialRoute("?route=mcgee&day=2"), "mcgee");
+  assert.equal(initialDay("?route=mcgee&day=2"), 2);
+  assert.equal(initialDay("?day=4"), 4);
+  for (const search of [
+    "",
+    "?day=",
+    "?day=0",
+    "?day=5",
+    "?day=2.5",
+    "?day=NaN",
+    "?day=%3Cscript%3E",
+  ])
+    assert.equal(initialDay(search), 0);
   for (const search of [
     "",
     "?route=",
