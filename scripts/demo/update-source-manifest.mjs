@@ -3,7 +3,7 @@ import { execFileSync } from "node:child_process";
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
-const applicationSourceSha = "2c0dbfd79f4f0a2ef94a23acb5a0a21d566f68b8";
+const applicationSourceSha = "bcd92c2aeada8814f7fe8471fedccd1963d44f43";
 const output = "docs/demo/source-manifest.json";
 const tracked = execFileSync("git", ["ls-files", "-z"], {
   encoding: "utf8",

@@ -4,7 +4,7 @@ An inspectable Eastern Sierra backpacking atlas: real agency trail geometry, sev
 
 ![Eastern Sierra atlas workflow demo](docs/demo/atlas-demo.gif)
 
-[Watch the MP4 demo](docs/demo/atlas-demo.mp4) · actual local production browser at source `2c0dbfd79f4f0a2ef94a23acb5a0a21d566f68b8`
+[Watch the MP4 demo](docs/demo/atlas-demo.mp4) · actual local production browser at source `bcd92c2aeada8814f7fe8471fedccd1963d44f43`
 
 The recording exercises route/day/leg inspection, licensed historical photography, map layers, access evidence, a real GPX export and source provenance. Its permit counts are an October 11, 2026 historical snapshot: nothing was reserved, paid for or issued. Parking, road access, current trail conditions and the requested Class 2 ceiling remain unverified.
 
