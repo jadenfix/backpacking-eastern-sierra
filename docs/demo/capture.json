@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "recorded_application_source_sha": "bcd92c2aeada8814f7fe8471fedccd1963d44f43",
+  "scope": "Actual local production-browser workflow over versioned agency-derived planning data and licensed historical photographs. Public basemap/font requests may occur.",
+  "truth_limits": [
+    "Permit inventory is a historical October 11, 2026 snapshot; nothing was reserved, paid for or issued.",
+    "Parking, road access, snow, water, trail conditions and a Class 2 ceiling are not field-verified.",
+    "This planning atlas is not safety clearance, a current field report or a hosted-deployment receipt."
+  ],
+  "browser_receipt": {
+    "chapters": [
+      {
+        "title": "01 / Inspect a mapped itinerary and its evidence",
+        "at": 0.988
+      },
+      {
+        "title": "02 / Focus a real agency trail leg \u2014 source gaps preserved",
+        "at": 3.741
+      },
+      {
+        "title": "03 / Open a licensed historical photograph",
+        "at": 6.477
+      },
+      {
+        "title": "04 / Compare nearby trails with the documented road closure",
+        "at": 8.981
+      },
+      {
+        "title": "05 / Keep permits, parking and current conditions unresolved",
+        "at": 11.801
+      },
+      {
+        "title": "06 / Export the actual GPX \u2014 separate source segments retained",
+        "at": 15.198
+      },
+      {
+        "title": "07 / Trace the geometry, rules and photo provenance",
+        "at": 17.769
+      },
+      {
+        "title": "08 / A static, inspectable atlas \u2014 no keys or paid services",
+        "at": 20.517
+      }
+    ],
+    "allowed_remote_domains": [
+      "basemap.nationalmap.gov",
+      "fonts.googleapis.com"
+    ],
+    "page_errors": [],
+    "blocked_remote_requests": [],
+    "gpx_export": {
+      "file": "short-route.gpx",
+      "bytes": 190920,
+      "sha256": "ae6aa865b4fad381422c505176acec01ce90659c845b95e612e804f801c395b5"
+    }
+  },
+  "artifacts": {
+    "atlas-demo.mp4": {
+      "bytes": 726280,
+      "sha256": "289e1865b54eecdde78375a9c03216a933209a93478180243d65859fac5c59f0"
+    },
+    "atlas-demo.gif": {
+      "bytes": 974758,
+      "sha256": "bb72d1930d5f93adba10ce9e8f447ebcb40eb3632b2f98c10a6bc02ac76f06a0"
+    },
+    "poster.png": {
+      "bytes": 334798,
+      "sha256": "c8e629a13e6c4505585bd0fbbfa04139d29b83b7662fef67b5c348a14b37cc6b"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "recorded_application_source_sha": "bcd92c2aeada8814f7fe8471fedccd1963d44f43",
+  "source_scope": "Runtime, build configuration, versioned planning data and local photographs used by the captured production app.",
+  "inputs": [
+    {
+      "path": "index.html",
+      "git_blob_sha": "18b9f683e27388f60bd0d4f06a34df9a9e903045",
+      "bytes": 456
+    },
+    {
+      "path": "package-lock.json",
+      "git_blob_sha": "c6698d0b38604d29d2c1532d2ae6db38cac6a46a",
+      "bytes": 81395
+    },
+    {
+      "path": "package.json",
+      "git_blob_sha": "80f09b28a7e625b4e66660ad737791f31635e782",
+      "bytes": 1369
+    },
+    {
+      "path": "public/assets/photos/big-mcgee.jpg",
+      "git_blob_sha": "5f22e7dab5840340302bf89b6c4981632fa49c31",
+      "bytes": 1142409
+    },
+    {
+      "path": "public/assets/photos/blue-lake.jpg",
+      "git_blob_sha": "e829a5ca402c209136e4117833440d96e22a958c",
+      "bytes": 847766
+    },
+    {
+      "path": "public/assets/photos/duck-lake.jpg",
+      "git_blob_sha": "354b3f6018b495729c01a3938e0373433a3bb08a",
+      "bytes": 2018169
+    },
+    {
+      "path": "public/assets/photos/ediza.jpg",
+      "git_blob_sha": "8e156f1144c2d2981eb5b49cd15eea616564cad4",
+      "bytes": 659321
+    },
+    {
+      "path": "public/assets/photos/garnet.jpg",
+      "git_blob_sha": "7d94bfa657b5906beb012e1140eb10755987c0f8",
+      "bytes": 775881
+    },
+    {
+      "path": "public/assets/photos/horseshoe.jpg",
+      "git_blob_sha": "2c78ef0dbc471205a5f8f593e5a75996ec34db61",
+      "bytes": 569558
+    },
+    {
+      "path": "public/assets/photos/minaret.jpg",
+      "git_blob_sha": "c570f7f03af916cfd8d518e09e75e242051d13bc",
+      "bytes": 680578
+    },
+    {
+      "path": "public/assets/photos/ritter-banner.jpg",
+      "git_blob_sha": "10e3815c5a40d39796e136d09da2948f886618d0",
+      "bytes": 570123
+    },
+    {
+      "path": "public/assets/photos/thousand-island.jpg",
+      "git_blob_sha": "50a2d0b72b7ee0b2b7f769610ee9dd43c0408fcd",
+      "bytes": 580695
+    },
+    {
+      "path": "public/data/closed-road.geojson",
+      "git_blob_sha": "b7dca82edef6ae234608588eb41c6ed9343d692d",
+      "bytes": 53331
+    },
+    {
+      "path": "public/data/content.json",
+      "git_blob_sha": "c8d2cb7763f159cc250e51891dbe9abcd5f420d8",
+      "bytes": 35411
+    },
+    {
+      "path": "public/data/permits.json",
+      "git_blob_sha": "a31e3a66725fc4997825771307fbf0ffb31d4ccd",
+      "bytes": 1370
+    },
+    {
+      "path": "public/data/photos.json",
+      "git_blob_sha": "cb35483bedd092b32bac8ae51ef9a8c5803b56e2",
+      "bytes": 6324
+    },
+    {
+      "path": "public/data/places.json",
+      "git_blob_sha": "47da21951394ade711391ff6afe46b1c06011072",
+      "bytes": 21270
+    },
+    {
+      "path": "public/data/reds-meadow-2026-closure-order.pdf",
+      "git_blob_sha": "ac61d5fc4072b798092a04e970c3ee9fe336bd89",
+      "bytes": 147006
+    },
+    {
+      "path": "public/data/route-lines.geojson",
+      "git_blob_sha": "63e843fbc18fd092e75c3192484a4437e6922a3b",
+      "bytes": 1186937
+    },
+    {
+      "path": "public/data/route-road-check.json",
+      "git_blob_sha": "08338fb7c3e2fbd04a95945cf3155df139e14d04",
+      "bytes": 371
+    },
+    {
+      "path": "public/data/routes.json",
+      "git_blob_sha": "ebbe296bd68b63c7506a311ec9cbdec06fb599e1",
+      "bytes": 15201
+    },
+    {
+      "path": "public/data/trails.geojson",
+      "git_blob_sha": "9a0a6987cbe882ea25059fec66f6bba61c0f2844",
+      "bytes": 1703176
+    },
+    {
+      "path": "public/data/weather.json",
+      "git_blob_sha": "3866d30f96babcb269aed4ee987ea3bbf94cb2f7",
+      "bytes": 5962
+    },
+    {
+      "path": "src/App.tsx",
+      "git_blob_sha": "fc23e3a3d84b93fd4a3fc0ae9d13b500e6f9c0e2",
+      "bytes": 12173
+    },
+    {
+      "path": "src/components/DayPlan.tsx",
+      "git_blob_sha": "7fb8f28c9dacd19e583783d39d512bd3592cfc3b",
+      "bytes": 4000
+    },
+    {
+      "path": "src/components/EvidencePanel.tsx",
+      "git_blob_sha": "95d40d1ea4c81dffeb359f7a38b345f5cdf31254",
+      "bytes": 9630
+    },
+    {
+      "path": "src/components/Inspector.tsx",
+      "git_blob_sha": "688a5e5ebd68bc6a38ed4fc0a1d86b10491d0d2a",
+      "bytes": 9610
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "git_blob_sha": "492c3af6fe247aa93fc2c4220c1f6e4a7cb2294b",
+      "bytes": 11828
+    },
+    {
+      "path": "src/components/RouteRail.tsx",
+      "git_blob_sha": "ff284869f36bb955e6122c003fe34ba34cece52f",
+      "bytes": 4541
+    },
+    {
+      "path": "src/lib/data.ts",
+      "git_blob_sha": "ec9e39de8f198f31447ea0b478dabe7320107694",
+      "bytes": 1935
+    },
+    {
+      "path": "src/lib/export.test.ts",
+      "git_blob_sha": "a3ca0cbbaf881dc3ac9da21bbee737809720fac6",
+      "bytes": 2521
+    },
+    {
+      "path": "src/lib/export.ts",
+      "git_blob_sha": "8f4faaee610a043da2846edf23f3f5ab6072a229",
+      "bytes": 2414
+    },
+    {
+      "path": "src/lib/routes.test.ts",
+      "git_blob_sha": "58a3a3f3b44f58a0a2e824c6e5eab3e22cdd28c5",
+      "bytes": 5019
+    },
+    {
+      "path": "src/lib/routes.ts",
+      "git_blob_sha": "b80d4c4c73ce48ccef1b5d692f2b211c6d30f095",
+      "bytes": 2694
+    },
+    {
+      "path": "src/main.tsx",
+      "git_blob_sha": "a7801844e41f554e3bb6e2a055d7b98b9509a7c8",
+      "bytes": 269
+    },
+    {
+      "path": "src/styles.css",
+      "git_blob_sha": "cfad08d2cba08b25b420f97b3bdd0861965e41fc",
+      "bytes": 32354
+    },
+    {
+      "path": "src/types.ts",
+      "git_blob_sha": "b33ae0ed98c39588309c2e58e2d940caca0f5ae5",
+      "bytes": 2384
+    },
+    {
+      "path": "tsconfig.json",
+      "git_blob_sha": "a573c033185c3c719b07a78b81e1c0895cf0313d",
+      "bytes": 573
+    },
+    {
+      "path": "vite.config.ts",
+      "git_blob_sha": "17c6b2920e72519be8eae0f62ea0eaf5d7da36a4",
+      "bytes": 315
+    }
+  ]
+}

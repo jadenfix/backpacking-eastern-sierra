@@ -9,6 +9,11 @@
     "preview": "vite preview --host 127.0.0.1 --port 4173",
     "test": "tsx --test src/lib/*.test.ts",
     "validate": "tsx scripts/validate-data.ts",
+    "browser:e2e": "node scripts/check-browser.mjs",
+    "demo:manifest": "node scripts/demo/update-source-manifest.mjs",
+    "demo:capture": "npm run build && node scripts/demo/capture.mjs",
+    "demo:render": "python3 scripts/demo/render.py",
+    "demo:verify": "node scripts/demo/capture.mjs --verify-only && python3 scripts/demo/verify.py",
     "format": "prettier --write src scripts/validate-data.ts vite.config.ts",
     "format:check": "prettier --check src scripts/validate-data.ts vite.config.ts"
   },
@@ -19,6 +24,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "1.62.1",
     "@types/geojson": "^7946.0.16",
     "@types/leaflet": "^1.9.15",
     "@types/node": "^22.0.0",

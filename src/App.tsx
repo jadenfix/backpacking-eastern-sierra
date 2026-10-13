@@ -12,7 +12,12 @@ import {
 } from "lucide-react";
 import type { Dataset, RouteId } from "./types";
 import { loadData } from "./lib/data";
-import { initialRoute, routeDay, routeFeatures } from "./lib/routes";
+import {
+  initialDay,
+  initialRoute,
+  routeDay,
+  routeFeatures,
+} from "./lib/routes";
 import { downloadFile, makeGpx, makeNotes } from "./lib/export";
 import { RouteRail } from "./components/RouteRail";
 import { MapCanvas } from "./components/MapCanvas";
@@ -27,7 +32,7 @@ export default function App() {
   const [selected, setSelected] = useState<RouteId>(() =>
     initialRoute(location.search),
   );
-  const [day, setDay] = useState(0),
+  const [day, setDay] = useState(() => initialDay(location.search)),
     [leg, setLeg] = useState<string | null>(null),
     [place, setPlace] = useState("minaret"),
     [view, setView] = useState<View>("explore"),
@@ -58,10 +63,6 @@ export default function App() {
             ) ??
             conf.stops[0],
         );
-        const initialDay = Number(
-          new URLSearchParams(location.search).get("day"),
-        );
-        if (initialDay >= 1 && initialDay <= 4) setDay(initialDay);
       })
       .catch((e) => setError(e.message));
   }, []);

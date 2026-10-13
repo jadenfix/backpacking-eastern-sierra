@@ -2,6 +2,12 @@
 
 An inspectable Eastern Sierra backpacking atlas: real agency trail geometry, seven selectable itineraries, daily and individual-leg inspection, topo/satellite/street maps, licensed place photos, and evidence-based permit/parking checks.
 
+![Eastern Sierra atlas workflow demo](docs/demo/atlas-demo.gif)
+
+[Watch the MP4 demo](docs/demo/atlas-demo.mp4) · actual local production browser at source `bcd92c2aeada8814f7fe8471fedccd1963d44f43`
+
+The recording exercises route/day/leg inspection, licensed historical photography, map layers, access evidence, a real GPX export and source provenance. Its permit counts are an October 11, 2026 historical snapshot: nothing was reserved, paid for or issued. Parking, road access, current trail conditions and the requested Class 2 ceiling remain unverified.
+
 ![Eastern Sierra atlas](docs/atlas-desktop.jpg)
 
 ## Run locally
@@ -20,6 +26,8 @@ npm test           # data contracts, route integrity, GPX and evidence regressio
 npm run validate  # every route reference, coordinate, daily distance and return-to-start
 npm run build     # TypeScript checks and optimized production assets
 npm run preview   # serve the production build at http://127.0.0.1:4173/
+npm run browser:e2e # real desktop/mobile production-preview journeys
+npm run demo:verify # demo source guard, artifact hashes and browser receipt
 ```
 
 ## Explore
